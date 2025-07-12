@@ -4,8 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Интерпан</title>
-  <meta name="description" content="Завод по производству огнестойких панелей">
+  <title>Интерпан — завод по производству огнестойких панелей</title>
+  <meta name="description"
+    content="Интерпан - ведущий завод по производству огнестойких стеновых и потолочных панелей в России. Предлагаем широкий ассортимент декоративных панелей под дерево, бетон, LOFT, а также антивандальные решения. Доставка и монтаж под ключ.">
+  <meta name="keywords"
+    content="Интерпан, огнестойкие панели, стеновые панели, потолочные панели, декоративные панели, панели под дерево, панели под бетон, панели LOFT, антивандальные панели, ГСП, СМЛ, ГКЛ, производство панелей, монтаж панелей, доставка панелей, противопожарные материалы">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="images/icon.svg">
 </head>
@@ -116,7 +119,8 @@
                 <div class="home__banner-type">
                   <p>Спецпредложения</p>
                 </div>
-                <p onclick="scrollToFeedback()" class="home__banner-title"><a>Распродажа отбойной<br>доски Интерпан</a></p>
+                <p onclick="scrollToFeedback()" class="home__banner-title"><a>Распродажа отбойной<br>доски Интерпан</a>
+                </p>
               </div>
             </div>
             <img src="images/sale.png" alt="Изображение" class="home__banner-image --1 img-no-drag">
@@ -128,7 +132,8 @@
                 <div class="home__banner-type">
                   <p>Обратная связь</p>
                 </div>
-                <p onclick="scrollToFeedback()" class="home__banner-title"><a>Расчитать количество <br>панелей для помещения</a></p>
+                <p onclick="scrollToFeedback()" class="home__banner-title"><a>Расчитать количество <br>панелей для
+                    помещения</a></p>
               </div>
             </div>
             <img src="images/calc.png" alt="Изображение" class="home__banner-image --2 img-no-drag">
@@ -275,6 +280,7 @@
       </div>
 
       <section class="about" id="aboutUs">
+        <div class="about__background"></div>
         <div class="container">
           <div class="about__description">
             <p class="about__title">О компании</p>
@@ -562,6 +568,7 @@
         </div>
       </section>
       <section class="feedback">
+        <div class="feedback__background"></div>
         <div class="container">
           <div class="feedback__head">
             <p class="feedback__title">У вас есть проект для нас или<br> необходима консультация?</p>
@@ -578,26 +585,26 @@
       </section>
     </main>
     <footer>
+      <div class="footer__background"></div>
       <div class="container">
         <div class="footer__main-content">
-
           <div class="footer__about-us">
-            <a href="#" onclick="location.reload()" class="footer__logo-link">
-              <div class="footer__logo-container">
-                <div class="footer__logo-background">
-                  <img src="images/Logo.svg" alt="Лого" class="footer__logo img-no-drag">
+            <div class="footer__logo-link-container">
+              <a href="#" onclick="location.reload()" class="footer__logo-link">
+                <div class="footer__logo-container">
+                  <div class="footer__logo-background">
+                    <img src="images/Logo.svg" alt="Лого" class="footer__logo img-no-drag">
+                  </div>
+                  <div class="footer__logo-text">
+                    <img src="images/logo-text.svg" alt="Заголовок" class="footer__logo-title">
+                    <p class="footer__logo-subtitle">завод по производству огнестойких панелей</p>
+                  </div>
                 </div>
-                <div class="footer__logo-text">
-                  <img src="images/logo-text.svg" alt="Заголовок" class="footer__logo-title">
-                  <p class="footer__logo-subtitle">завод по производству огнестойких панелей</p>
-                </div>
-              </div>
-            </a>
-            <p class="footer__SEO">SEO текст для прожвидения сайта в поисковиках содежащий ключевые слова, теги или
-              другую информацию, которая может быть неинтересна пользователю, но поможет в поисковом продвижении сайта.
-            </p>
+              </a>
+            </div>
+            <p class="footer__SEO">Завод «Интерпан» — ведущий производитель огнестойких панелей в России. Мы предлагаем
+              широкий ассортимент стеновых и потолочных панелей, включая декоративные решения под дерево и бетон.</p>
           </div>
-
           <div class="footer__menu">
             <p class="footer__menu-title">Меню</p>
             <div class="footer__menu-items">
@@ -608,30 +615,23 @@
               <a onclick="scrollToPartners()" class="footer__menu-item">Партнеры</a>
             </div>
           </div>
-
           <div class="footer__contacts" id="contacts">
             <p class="footer__contacts-title">Связаться с нами</p>
-
             <div class="footer__contacts-items">
-
               <a href="mailto:info@interpan.ru" class="footer__contacts-item">
                 <div class="footer__contact-container">
                   <img src="images/Mail.svg" alt="Mail" class="footer__contact-icon">
                   <p class="footer__contact-text">info@interpan.ru</p>
                 </div>
               </a>
-
               <a href="tel:+74991106630" class="footer__contacts-item">
                 <div class="footer__contact-container">
                   <img src="images/Phone.svg" alt="Phone" class="footer__contact-icon">
                   <p class="footer__contact-text">+7 (495) 730-55-01</p>
                 </div>
               </a>
-
             </div>
-
             <p class="footer__contacts-subtitle">Мы в социальных сетях:</p>
-
             <div class="footer__social-network-links">
               <a href="https://wa.me/79851118634" target="_blank" class="footer__social-network-link">
                 <img src="images/Whatsapp.svg" alt="Whatsapp" class="footer__social-network-icon">
@@ -644,7 +644,6 @@
                 <img src="images/Youtube.svg" alt="Youtube" class="footer__social-network-icon">
               </a>
             </div>
-
           </div>
         </div>
         <p class="footer__rights">Интерпан. 2025 ©</p>
